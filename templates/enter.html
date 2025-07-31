@@ -1,0 +1,25 @@
+<!-- templates/enter.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>진단테스트 시작</title>
+    <style>
+      body { font-family: sans-serif; background:#f7f9fc; padding: 40px; text-align:center; }
+      form { background: white; display:inline-block; padding: 40px 60px; border-radius:10px;
+             box-shadow: 0 0 10px rgba(0,0,0,0.08); }
+      input { padding:10px; width: 240px; margin-bottom: 16px; font-size: 1em; }
+      button { padding: 10px 30px; background:#2565cb; color:white; border:none; border-radius:6px;
+               font-size:1em; cursor:pointer; }
+      button:hover { background: #1c4587; }
+    </style>
+</head>
+<body>
+    <h1>편입영어 진단테스트</h1>
+    <form action="/test" method="GET">
+        <input type="text" name="name" placeholder="이름" required><br>
+        <input type="text" name="phone" placeholder="연락처" required><br>
+        <button type="submit">테스트 시작</button>
+    </form>
+</body>
+</html>

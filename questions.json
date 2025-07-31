@@ -1,0 +1,283 @@
+{
+  "directions": {
+    "1-4": "Choose the one that is closest in meaning to the underlined part.",
+    "5-7": "Choose the one that best completes the sentence according to standard written English.",
+    "8-10": "Choose the one that is either ungrammatical or unacceptable.",
+    "11-14": "Choose the one that best completes the sentence.",
+    "15": "Choose the one that is NOT appropriate for the whole context.",
+    "16-17": "Read the passage and answer the following questions.",
+    "18-20": "Read the passage and answer the following questions."
+  },
+  "passages": {
+    "15": "항산화물이 풍부한 차는 오랫동안 심혈관 건강에 좋다고 알려졌다. 하지만 많은 사람들이 이 쓴맛을 줄이기 위해 차에 우유를 타서 마신다. 그러나 우유 단백질은 차의 항산화 효과를 감소시킬 수 있으며, 두유 등도 비슷한 효과를 보일 수 있다. 이렇게 차에 우유를 넣는 습관은 원래 쓴맛 감소를 위해 시작됐지만, 오히려 건강 효과를 깎을 수 있다.",
+    "16-17": {
+      "passage": "Most kids like potatoes, especially when they’re made into french fries, but would you like to eat potatoes every day for every meal? Well, that is what kids living in Ireland did in the early 1800s. In the early part of the 19th century, potatoes were very important to the people of Ireland. Potatoes were their main source of food and income. Most Irish people were potato farmers and grew potatoes to be sold to other countries as exported goods. But all changed when Ireland was struck by the Irish Potato Famine. The Irish Potato Famine is sometimes referred to as the Great Famine or simply the Irish Famine. A famine is something that happens when large groups of people don’t have enough to eat. The Irish Potato Famine was a time of starvation and disease that resulted in many Irish people dying or leaving Ireland due to the loss of the potato crops.",
+      "passage_translation": "대부분 아이들은 감자를 좋아하지만, 19세기 초 아일랜드의 아이들은 매 끼니마다 감자를 먹었다. 감자는 아일랜드 사람들에게 매우 중요한 주요 식량이자 수입원이었고, 많은 아일랜드인은 감자 농사로 생계를 꾸렸다. 그러나 감자 기근이 닥쳐 대규모 기아와 질병, 이주가 발생했다. 기근은 수많은 이들이 굶주리거나 아일랜드를 떠나게 했다."
+    },
+    "18-20": {
+      "passage": "Halley’s Comet is arguably the most famous comet in history. As a “periodic” comet, it returns to Earth’s vicinity about every 75 years, making it possible for a person to see it twice in their lifetime. It was last here in 1986, and it is projected to return in 2061. The comet, officially called 1P/Halley, is named after English astronomer Edmond Halley, who examined reports of a comet approaching Earth in 1531, 1607 and 1682. He concluded that these three comets were actually the same comet returning over and over again, and predicted that it would return in 1758. Halley’s calculations showed that at least some comets orbit the sun. Halley didn’t live to see the comet’s correctly-predicted return, but the comet was given his name. Scientists finally got an up-close look at the comet when it last visited in 1986 when several spacecraft were sent to Halley’s vicinity to sample its composition. High-powered telescopes also observed the comet as it swung by Earth. While the comet won’t be back for up-close study for decades, scientists continue to investigate comets, looking at other small bodies. A notable example was the Rosetta probe, which looked at Comet 67P/Churyumov-Gerasimenko between 2014 and 2016 and concluded that the comet has a different kind of water than Earth’s water.",
+      "passage_translation": "Halley 혜성은 역사상 가장 유명한 혜성으로, 약 75년마다 지구 가까이를 지난다. 이 덕분에 한 사람이 평생 두 번 볼 수도 있다. 1P/Halley(핼리 혜성)는 에드먼드 핼리가 16~17세기에 관찰된 혜성들이 사실 한 개의 동일한 혜성임을 알아냈고, 1758년에 다시 올 것이라 예측했다. 핼리의 혜성 분석 덕분에 일부 혜성이 태양을 도는 주기를 가진다는 사실도 밝혀졌다. 핼리 자신은 혜성의 재등장을 보지 못하고 세상을 떠났지만, 예측은 정확히 맞았고, 이후 이 혜성은 그의 이름을 따서 부르게 되었다. 1986년에는 여러 우주 탐사선과 대형망원경이 1P/Halley의 근접 연구에 성공했다. 20세기 후반에는 Rosetta 탐사선이 다른 혜성(67P/Churyumov-Gerasimenko)을 연구해, 지구와는 다른 형태의 물을 지니고 있음을 밝혀냈다."
+    }
+  },
+  "questions": [
+    {
+        "number": 1,
+        "group": "1-4",
+        "question": "Scientific research is fundamentally a learning experience, and therefore scientists are <u>perpetual</u> students of nature.",
+        "options": ["constant", "bold", "sincere", "rational"],
+        "answer": "constant",
+        "explanation": "perpetual은 '끊임없는', '영구적인' 의미로, 가장 적합한 것은 constant이다.",
+        "translation": "과학 연구는 본질적으로 배움의 경험이며, 과학자들은 자연의 끝없는 학생이다.",
+        "accuracy": 68.1,
+        "part": "어휘"
+    },
+    {
+        "number": 2,
+        "group": "1-4",
+        "question": "By staying in politics, he could <u>harness</u> his network to try to protect himself from criminal charges.",
+        "options": ["urge", "persuade", "lead", "utilize"],
+        "answer": "utilize",
+        "explanation": "harness는 동사로 '이용하다, 활용하다'라는 뜻이며 utilize가 가장 가깝다.",
+        "translation": "정치계에 남아 있으면서 그는 자신의 인맥을 활용해 형사고발로부터 자신을 보호하려 했다.",
+        "accuracy": 63.0,
+        "part": "어휘"
+    },
+    {
+        "number": 3,
+        "group": "1-4",
+        "question": "Small businesses held rallies to call attention to their <u>plight</u> and urge state lawmakers to help their struggling industry.",
+        "options": ["status", "hardship", "efficiency", "dignity"],
+        "answer": "hardship",
+        "explanation": "plight는 '역경, 곤경'이라는 의미로 hardship이 동의어이다.",
+        "translation": "소상공인들은 자신들의 곤경에 관심을 모으고 업계 지원을 요청하기 위해 집회를 열었다.",
+        "accuracy": 63.2,
+        "part": "어휘"
+    },
+    {
+        "number": 4,
+        "group": "1-4",
+        "question": "While we continue to press ahead to reach unvaccinated Americans, we must <u>concurrently</u> maintain protection for those who have received the shot.",
+        "options": ["simultaneously", "firmly", "cautiously", "exclusively"],
+        "answer": "simultaneously",
+        "explanation": "concurrently는 '동시에', '공교롭게'란 뜻이므로 simultaneously가 정답이다.",
+        "translation": "우리는 아직 백신을 맞지 않은 미국인에게 다가가려는 노력을 계속하는 동시에, 접종자들도 보호해야 한다.",
+        "accuracy": 57.4,
+        "part": "어휘"
+    },
+    {
+        "number": 5,
+        "group": "5-7",
+        "question": "The United States _______ 50 States and the District of Columbia.",
+        "options": ["consists in", "is consisted of", "consists of", "is consisted in"],
+        "answer": "consists of",
+        "explanation": "consist of는 '~로 구성되다'이므로 The United States consists of...가 맞다.",
+        "translation": "미국은 50개 주와 콜럼비아 특별구로 이루어져 있다.",
+        "accuracy": 55.2,
+        "part": "문법"
+    },
+    {
+        "number": 6,
+        "group": "5-7",
+        "question": "I will go to the supermarket as soon as I _______ the household chores.",
+        "options": ["will finish doing", "finish to do", "will finish to do", "finish doing"],
+        "answer": "finish doing",
+        "explanation": "as soon as 등 시간 부사절에는 미래 대신 현재시제 사용. finish doing이 맞다.",
+        "translation": "나는 집안일을 끝내자마자 마트에 갈 것이다.",
+        "accuracy": 61.7,
+        "part": "문법"
+    },
+    {
+        "number": 7,
+        "group": "5-7",
+        "question": "On 9 November, she _______ to resume her previous activities and soon thereafter began assisting the many refugees in the area.",
+        "options": ["was let", "has been let", "was allowed", "has been allowed"],
+        "answer": "was allowed",
+        "explanation": "be allowed to (~하는 것이 허락되었다)가 문맥에 적합.",
+        "translation": "11월 9일, 그녀는 이전 활동을 재개하도록 허락되었고 곧 그 지역 난민 지원에 나섰다.",
+        "accuracy": 56.3,
+        "part": "문법"
+    },
+    {
+        "number": 8,
+        "group": "8-10",
+        "question": "Few people spend much time (A)<u>studying</u> either philosophy (B)<u>and</u> logic. (C)<u>This</u> is unfortunate because much relies (D)<u>on both</u>.",
+        "options": ["(A)", "(B)", "(C)", "(D)"],
+        "answer": "(B)",
+        "explanation": "either A or B가 어법상 맞으며 either ... and ...는 틀린 표현.",
+        "translation": "철학이나 논리를 공부하는 사람은 거의 없다. 이는 많은 것이 둘 다에 의해 좌우되기 때문에 유감스럽다.",
+        "accuracy": 51.7,
+        "part": "문법"
+    },
+    {
+        "number": 9,
+        "group": "8-10",
+        "question": "When the war veteran (A)<u>spoke</u> at Memorial Park, a hush (B)<u>fell</u> over the Memorial Day crowd. The crowd (C)<u>listened to</u> the man (D)<u>talked</u> about the horror of war and the hope of unity.",
+        "options": ["(A)", "(B)", "(C)", "(D)"],
+        "answer": "(D)",
+        "explanation": "'listened to the man talked about'는 틀린 어법(should be 'listened to the man talking about...' 또는 'who talked about').",
+        "translation": "참전 용사가 추모공원에서 연설하자 추모 행사장에 정적이 흘렀다. 군중은 전쟁의 공포와 단결의 희망을 이야기하는 남자의 말을 들었다.",
+        "accuracy": 55.3,
+        "part": "문법"
+    },
+    {
+        "number": 10,
+        "group": "8-10",
+        "question": "Dr. Richard Woodbury (A)<u>participated in</u> the excavation of this site and was (B)<u>enough kind</u> to (C)<u>go over</u> some of the details and aided considerably (D)<u>in clarifying</u> some of the field notes.",
+        "options": ["(A)", "(B)", "(C)", "(D)"],
+        "answer": "(B)",
+        "explanation": "'was enough kind'는 틀리며 'was kind enough'가 올바른 어순이다.",
+        "translation": "리처드 우드버리 박사는 이 유적지의 발굴에 참여했고, 매우 친절하게도 세부사항을 설명하는 데 도움을 주었으며 현장 노트 해석에도 많은 도움을 주었다.",
+        "accuracy": 65.9,
+        "part": "문법"
+    },
+    {
+        "number": 11,
+        "group": "11-14",
+        "question": "We want children to be _______ about the world around them and to develop a sense of curiosity.",
+        "options": ["agreeable", "successful", "inquisitive", "flexible"],
+        "answer": "inquisitive",
+        "explanation": "be inquisitive: '호기심이 많은, 탐구적인'; 문맥상 curiosity와 잘 어울린다.",
+        "translation": "우리는 아이들이 주변 세계에 대해 탐구적이길 바라며, 호기심을 갖게 하려고 한다.",
+        "accuracy": 56.6,
+        "part": "논리"
+    },
+    {
+        "number": 12,
+        "group": "11-14",
+        "question": "GM and Ford are temporarily _______ or extending downtimes at several plants in North America due to an ongoing semiconductor chip shortage impacting the global automotive industry.",
+        "options": ["enforced", "renovated", "facilitated", "idling"],
+        "answer": "idling",
+        "explanation": "idling은 공장 등의 '가동 정지'를 의미하며, 문맥상 가장 자연스럽다.",
+        "translation": "GM과 Ford는 전 세계 자동차 업계에 영향을 주는 반도체 부족으로 북미 여러 공장에서 일시적으로 가동을 멈추거나 휴무를 연장하고 있다.",
+        "accuracy": 26.1,
+        "part": "논리"
+    },
+    {
+        "number": 13,
+        "group": "11-14",
+        "question": "People without disabilities consistently underestimate the life satisfaction of those with them. Although people with disabilities report a slightly lower overall quality of life than those without, _______. One study found that half of people with serious disabilities ranked their quality of life as ‘good’ or ‘excellent’.",
+        "options": [
+            "the disabled are often anxious",
+            "the difference is small",
+            "people with disabilities are less happy",
+            "life satisfaction drops"
+        ],
+        "answer": "the difference is small",
+        "explanation": "장애인의 삶의 질 차이는 크지 않음. 가장 알맞은 내용은 'the difference is small'.",
+        "translation": "비장애인은 장애인의 삶의 만족도를 과소평가한다. 장애인은 삶의 질이 약간 낮다고 말하지만, 심각한 장애인의 절반은 삶의 질을 '좋음' 또는 '매우 좋음'으로 평가했다.",
+        "accuracy": 53.8,
+        "part": "논리"
+    },
+    {
+        "number": 14,
+        "group": "11-14",
+        "question": "Labrador dogs are well known for being fond of their food, but new research suggests their _______ nature could be down to genetic mutation. Labrador retrievers are top dog in the UK, with 32,507 animals newly registered with the Kennel Club in 2015 alone. But the breed is well known for its tendency to develop a _______ form, a concern given the variety of health problems from diabetes to heart disease linked to obesity.",
+        "options": [
+            "pliant - lean",
+            "adorable - athletic",
+            "pure - attractive",
+            "greedy - fat"
+        ],
+        "answer": "greedy - fat",
+        "explanation": "greedy/fat: 실험 결과, labrador가 음식에 탐욕스럽고 살찌기 쉬운 건 유전자 변이 때문이다.",
+        "translation": "래브라도 견종은 음식을 좋아하는 것으로 유명하지만, 연구 결과 이들의 식탐은 유전자 변이 때문일 수 있다. 이 견종은 비만에 취약해 다양한 건강 문제가 야기될 수 있다.",
+        "accuracy": 58.8,
+        "part": "논리"
+    },
+    {
+        "number": 15,
+        "group": "15",
+        "question": "With its generous share of antioxidants, tea has long been said to improve cardiovascular health. (A) It is customary, however, in many places to drink tea with milk, a practice that may nullify tea’s salutary properties. (B) Scientists speculate that this effect is a result of proteins in milk binding to and neutralizing antioxidants, and have noted that even non-dairy soy milk has a similar antagonistic effect. (C) Initially, people started added dairy so as to reduce the bitterness of the tea. (D) So those who continue to add milk to their tea are amplifying its negative effects.\n\nChoose the one that is NOT appropriate for the whole context.",
+        "options": ["(A)", "(B)", "(C)", "(D)"],
+        "answer": "(D)",
+        "explanation": "D는 나머지 문장들에 비해 논리적 근거가 약하며, 문맥상 과장된 해석이므로 부적절.",
+        "translation": "항산화물이 풍부한 차는 오랫동안 심혈관 건강에 좋다고 알려졌다. 하지만 많은 사람들이 이 쓴맛을 줄이기 위해 차에 우유를 타서 마신다. 그러나 우유 단백질은 차의 항산화 효과를 감소시킬 수 있으며, 두유 등도 비슷한 효과를 보일 수 있다. 이렇게 차에 우유를 넣는 습관은 원래 쓴맛 감소를 위해 시작됐지만, 오히려 건강 효과를 깎을 수 있다.",
+        "accuracy": 68.5,
+        "part": "독해"
+    },
+    {
+  "group": "16-17",
+  "passage": "Most kids like potatoes, especially when they’re made into french fries, but would you like to eat potatoes every day for every meal? Well, that is what kids living in Ireland did in the early 1800s. In the early part of the 19th century, potatoes were very important to the people of Ireland. Potatoes were their main source of food and income. Most Irish people were potato farmers and grew potatoes to be sold to other countries as exported goods. But all changed when Ireland was struck by the Irish Potato Famine. The Irish Potato Famine is sometimes referred to as the Great Famine or simply the Irish Famine. A famine is something that happens when large groups of people don’t have enough to eat. The Irish Potato Famine was a time of starvation and disease that resulted in many Irish people dying or leaving Ireland due to the loss of the potato crops.",
+  "passage_translation": "대부분 아이들은 감자를 좋아하지만, 19세기 초 아일랜드의 아이들은 매 끼니마다 감자를 먹었다. 감자는 아일랜드 사람들에게 매우 중요한 주요 식량이자 수입원이었고, 많은 아일랜드인은 감자 농사로 생계를 꾸렸다. 그러나 감자 기근이 닥쳐 대규모 기아와 질병, 이주가 발생했다. 기근은 수많은 이들이 굶주리거나 아일랜드를 떠나게 했다.",
+  "questions": [
+    {
+      "number": 16,
+      "question": "What is the best title of the passage?",
+      "options": [
+        "The Tragic Life of the Irish Farmers",
+        "The Effect of the Irish Potato Famine",
+        "The Favorite Food of Irish Children",
+        "The Cause of the Irish Immigration"
+      ],
+      "answer": "The Effect of the Irish Potato Famine",
+      "explanation": "지문은 아일랜드 감자기근이 끼친 영향에 초점을 둔다.",
+      "accuracy": 80.1,
+      "part": "독해"
+    },
+    {
+      "number": 17,
+      "question": "According to the passage, which of the following is not true?",
+      "options": [
+        "The Irish Famine led some people to abandon their country.",
+        "In the early 19th century, Irish kids fed mainly on potatoes.",
+        "During the Great Famine, people suffered from disease.",
+        "The Irish ruling class was the most vulnerable to the famine."
+      ],
+      "answer": "The Irish ruling class was the most vulnerable to the famine.",
+      "explanation": "최상위 계층(귀족 등)이 가장 취약했다는 내용은 본문에 없다.",
+      "accuracy": 65.4,
+      "part": "독해"
+    }
+  ]
+},
+{
+  "group": "18-20",
+  "passage": "Halley’s Comet is arguably the most famous comet in history. As a “<u>(A) periodic</u>” comet, it returns to Earth’s vicinity about every 75 years, making it possible for a person to see it twice in their lifetime. It was last here in 1986, and it is projected to return in 2061. The comet, officially called 1P/Halley, is named after English astronomer Edmond Halley, who examined reports of a comet approaching Earth in 1531, 1607 and 1682. He concluded that these three comets were actually the same comet returning over and over again, and predicted that it would return in 1758. Halley’s calculations showed that at least some comets orbit the sun. Halley didn’t live to see the comet’s correctly-predicted return, but the comet was given his name. Scientists finally got an up-close look at the comet when it last visited in 1986 when several spacecraft were sent to Halley’s vicinity to sample its composition. High-powered telescopes also observed the comet as it swung by Earth. While the comet won’t be back for up-close study for decades, scientists continue to investigate comets, looking at other small bodies. A notable example was the Rosetta probe, which looked at Comet 67P/Churyumov-Gerasimenko between 2014 and 2016 and concluded that the comet has a different kind of water than Earth’s water.",
+  "passage_translation": "Halley 혜성은 역사상 가장 유명한 혜성으로, 약 75년마다 지구 가까이를 지난다. 이 덕분에 한 사람이 평생 두 번 볼 수도 있다. 1P/Halley(핼리 혜성)는 에드먼드 핼리가 16~17세기에 관찰된 혜성들이 사실 한 개의 동일한 혜성임을 알아냈고, 1758년에 다시 올 것이라 예측했다. 핼리의 혜성 분석 덕분에 일부 혜성이 태양을 도는 주기를 가진다는 사실도 밝혀졌다. 핼리 자신은 혜성의 재등장을 보지 못하고 세상을 떠났지만, 예측은 정확히 맞았고, 이후 이 혜성은 그의 이름을 따서 부르게 되었다. 1986년에는 여러 우주 탐사선과 대형망원경이 1P/Halley의 근접 연구에 성공했다. 20세기 후반에는 Rosetta 탐사선이 다른 혜성(67P/Churyumov-Gerasimenko)을 연구해, 지구와는 다른 형태의 물을 지니고 있음을 밝혀냈다.",
+  "questions": [
+    {
+      "number": 18,
+      "question": "According to the passage, which of the following is not true?",
+      "options": [
+        "Before 1986, people didn’t get an up-close look at 1P/Halley.",
+        "Halley’s prediction about 1P/Halley turned out to be false.",
+        "Halley’s Comet has returned to Earth’s vicinity regularly.",
+        "The comet that the Rosetta probe observed had water."
+      ],
+      "answer": "Halley’s prediction about 1P/Halley turned out to be false.",
+      "explanation": "Halley는 혜성이 주기적으로 돌아온다고 예측했고 실제론 맞았다. 'turned out to be false'는 틀림.",
+      "accuracy": 55.1,
+      "part": "독해"
+    },
+    {
+      "number": 19,
+      "question": "According to the passage, which of the following can be inferred?",
+      "options": [
+        "Halley looked at a comet approaching Earth with the naked eye in 1682.",
+        "Comet 67P/Churyumov-Gerasimenko had a characteristic like Halley’s Comet.",
+        "Comet 67P/Churyumov-Gerasimenko was first discovered by the Rosetta probe.",
+        "Before Halley studied, people didn’t know that the comet approached the Earth repeatedly."
+      ],
+      "answer": "Before Halley studied, people didn’t know that the comet approached the Earth repeatedly.",
+      "explanation": "Halley 연구 전에는 같은 혜성이 반복해서 접근하는 걸 사람들이 몰랐다.",
+      "accuracy": 42.0,
+      "part": "독해"
+    },
+    {
+      "number": 20,
+      "question": "Which is closest in meaning to the underlined \"<u>(A) periodic</u>\"?",
+      "options": [
+        "occurring regularly",
+        "shining brilliantly",
+        "remaining constantly",
+        "existing mysteriously"
+      ],
+      "answer": "occurring regularly",
+      "explanation": "'periodic'은 '주기적으로 일어나는'의미로 occurring regularly가 정답.",
+      "accuracy": 61.8,
+      "part": "독해"
+    }
+      ]
+    }
+  ]
+}

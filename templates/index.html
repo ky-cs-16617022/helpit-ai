@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>HELPit 영어 진단 테스트</title>
+  <style>
+    html, body {
+      height: 100%;
+      position: relative;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f6f8fb;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {
+      max-width: 700px;
+      margin: 32px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px 0 #e0e0e0;
+      padding: 40px 32px 24px 32px;
+    }
+    .main-title, h1 {
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 2.2rem;
+      font-weight: 900;
+      color:#162e53;
+      margin-bottom: 20px;
+    }
+    .intro-ai-banner {
+      background: #f7fbff;
+      border-radius: 18px;
+      text-align: center;
+      padding: 30px 18px 25px 18px;
+      box-shadow: 0 2px 8px #d7e6f9;
+      margin-bottom: 37px;
+    }
+    .intro-ai-banner .main-title {
+      font-size: 36px;
+      letter-spacing: 1.8px;
+      margin: 0 0 4px 0;
+    }
+    .ai-title { color: #1c7cec; }
+    .sub-title { color: #293a5c; font-size: 18px; margin-bottom: 25px; font-weight: 600; }
+    .feature-cards { display: flex; gap: 17px; justify-content: center; margin-bottom: 24px; flex-wrap: wrap;}
+    .feature-card {
+      background: #fff; border-radius: 13px;
+      box-shadow: 0 1.5px 7px #e0e9f3; flex: 1 1 100px;
+      min-width: 130px; max-width: 150px; padding: 18px 7px 11px 7px; margin: 0 0 8px 0;
+    }
+    .card-icon { font-size: 30px; margin-bottom: 8px; }
+    .card-title { font-size: 18.3px; font-weight: bold; color: #2857a7; margin-bottom: 6px; }
+    .card-desc { font-size: 15px; color:#233a58; line-height:1.5;}
+    .main-slogan { color: #13343a; font-size: 15.6px; font-weight: 700; margin-top: 16px; margin-bottom: 3px; }
+    @media (max-width: 630px) {
+      .feature-cards { flex-direction: column; gap:12px;}
+      .feature-card {max-width: 100%; min-width:0;}
+    }
+
+    #user-form {
+      max-width: 320px;
+      margin: 0 auto;
+      padding: 20px 18px 12px 18px;
+      background: #fcfdff;
+      border-radius: 10px;
+      box-shadow: 0px 2px 11px #eaeefe;
+    }
+    #user-form label {font-size: 15px; color: #34455a; font-weight: 700;}
+    #user-form input[type=text] {
+      padding: 10px;
+      font-size: 18px;
+      width: 100%;
+      border-radius: 6px;
+      border: 1.5px solid #e5e5e5;
+      margin: 7px 0 18px 0;
+      display: block;
+    }
+
+    .directions-block, .passage-block {
+      margin-bottom: 20px;
+      color: #2d4052;
+      font-size: 17px;
+      background: #f5f7fa;
+      border-left: 5px solid #4A90E2;
+      padding: 13px 18px;
+      border-radius: 7px;
+      font-weight: 500;
+    }
+    .passage-block {
+      background: #ecf5fc;
+      border-left-color: #4a90e2;
+      color: #1c3250;
+      font-size: 16.7px;
+      padding: 15px 20px 15px 16px;
+      margin-bottom: 22px;
+      font-weight: 500;
+      box-shadow: 0 2px 7px #f0f5fc;
+    }
+    .question {
+      background: #f7fafd;
+      margin-bottom: 16px;
+      padding: 21px 17px 13px 17px;
+      border-radius: 10px;
+      box-shadow: 0 1.5px 6px #e3eefa;
+      border: 1.5px solid #d6e2ea;
+    }
+    .question strong { color: #335589; font-size: 18px; }
+    .options { margin-top: 16px; font-size: 16px; }
+    .options label {
+      display: inline-block; margin-right: 25px; margin-bottom: 12px;
+      cursor: pointer; font-size: 15.8px;
+      border-radius: 5px; padding: 2.5px 8px 2.5px 0;
+    }
+    .options input[type="radio"] {
+      accent-color: #4A90E2; margin-right: 5px;
+    }
+    #questions { margin-bottom: 22px; }
+
+    .button, .submit-button {
+      display: inline-block;
+      padding: 13px 30px;
+      background: #4A90E2;
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      font-size: 17px;
+      font-weight: 700;
+      margin: 12px auto 0 auto;
+      cursor: pointer;
+      box-shadow: 0px 2px 9px #e9f0fa;
+      transition: background 0.15s;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    .button:hover, .submit-button:hover { background: #3577c9; }
+    .center { text-align: center; }
+
+    #result-box {
+      background: #fbfcfe;
+      border: 1px solid #e7e8ed;
+      border-radius: 14px;
+      box-shadow: 0 2px 5px #e8e9ef;
+      margin-top: 30px;
+      padding: 20px 26px;
+    }
+    .score-table {
+      width: 100%; border-collapse: collapse; margin-bottom: 18px;
+      font-size: 17px; background: #fcfffa; border-radius: 8px;
+      box-shadow: 0 2px 8px #e3e9f2; overflow: hidden;
+    }
+    .score-table th {
+      background: #22bdbb; color: #fff;
+      font-weight: 800; padding: 8px 0;
+    }
+    .score-table td, .score-table th {
+      border: 1.5px solid #7ad1c5; text-align: center; padding: 7px 0;
+    }
+    .score-table .row-label { background: #b5efe6; font-weight: bold; }
+    .score-table tr:nth-child(2) td, .score-table tr:nth-child(3) td { background: #eefffd; }
+
+    h3, .result-section-title {
+      color: #16825a;
+      font-size: 1.28rem;
+      margin: 18px 0 13px 0;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+    .analysis-box {
+      margin: 30px 0 7px 0;
+      background: #fcfdf7;
+      border-radius: 9px;
+      padding: 18px 16px 13px 16px;
+      border: 1.5px solid #e2e7e2;
+      box-shadow: 0px 3px 12px #eee;
+    }
+    .analysis-title {
+      color: #237cbe;
+      font-weight: 700;
+      font-size: 1.08rem;
+      margin: 5px 0 12px 0;
+      display: flex;
+      align-items: center;
+    }
+    .analysis-title .icon {
+      font-size: 22px;
+      margin-right: 7px;
+      vertical-align: middle;
+    }
+
+    #grading-overlay {
+      position: fixed; top:0; left:0; right:0; bottom:0;
+      background: rgba(255,255,255,0.92);
+      display: none;
+      align-items: center; justify-content: center;
+      z-index: 99999;
+    }
+    .grading-modal {
+      background: #fff; border-radius: 14px; box-shadow: 0 4px 16px #7896cb55;
+      padding: 50px 60px; text-align: center;
+    }
+    .grading-ani {
+      font-size: 50px; margin-bottom:16px;
+      animation: blink 1.1s infinite;
+    }
+    @keyframes blink { 0%{opacity:1;} 50%{opacity:0.2;} 100%{opacity:1;} }
+  </style>
+  <script src="/static/script.js" defer></script>
+</head>
+<body>
+
+  <!-- 🔧 채점 중 오버레이 위치 이동 -->
+  <div id="grading-overlay">
+    <div class="grading-modal">
+      <div class="grading-ani">⏳</div>
+      <p>채점 중입니다...<br>잠시만 기다려주세요!</p>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <h1 id="main-title" class="main-title">HELPit 영어 진단 테스트</h1>
+
+    <div id="intro-banner" class="intro-ai-banner">
+      <div class="main-title">
+        <span style="font-size:40px; vertical-align:middle; margin-right:9px;">🔍</span>
+        HELPit <span class="ai-title">AI</span>
+      </div>
+      <div class="sub-title">
+        AI 기반 김영편입 영어 진단 서비스
+      </div>
+      <div class="feature-cards">
+        <div class="feature-card">
+          <div class="card-icon">🔎</div>
+          <div class="card-title">진단 테스트</div>
+          <div class="card-desc">20문항 /<br>30분 내외</div>
+        </div>
+        <div class="feature-card">
+          <div class="card-icon">🧮</div>
+          <div class="card-title">AI 채점</div>
+          <div class="card-desc">문항별 자동 채점 및 분석</div>
+        </div>
+        <div class="feature-card">
+          <div class="card-icon">📊</div>
+          <div class="card-title">리포트 제공</div>
+          <div class="card-desc">학습 수준별 결과<br>요약 리포트</div>
+        </div>
+      </div>
+      <div class="main-slogan">
+        “내 실력, AI가 빠르고 정확하게 진단해드립니다.”
+      </div>
+    </div>
+
+    <div id="user-form">
+      <label>이름</label>
+      <input type="text" id="username" autocomplete="off">
+      <label>연락처</label>
+      <input type="text" id="userphone" autocomplete="off">
+      <button id="start-btn" class="submit-button">시작하기</button>
+    </div>
+
+    <div id="main-content" style="display:none;">
+      <div id="timer"></div>
+      <div id="questions"></div>
+      <div id="nav-buttons" class="center"></div>
+      <div class="center">
+        <button class="submit-button" onclick="submitAnswers()" id="submit-always">제출하기</button>
+      </div>
+    </div>
+
+    <div id="result-box"></div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      const startBtn = document.getElementById("start-btn");
+      if (startBtn) {
+        startBtn.onclick = function() {
+          const introBanner = document.getElementById("intro-banner");
+          if (introBanner) introBanner.style.display = "none";
+          document.getElementById("user-form").style.display = "none";
+          document.getElementById("main-content").style.display = "";
+          startTimer();
+          loadQuestions();
+        };
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!-- templates/admin.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>성적 관리</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background:#f5f8fc;}
+    h1 { color:#2c4ca3; }
+    .box {
+        background:white; padding:20px; border-radius:10px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.08); max-width:600px; margin:40px auto;
+    }
+    a.download {
+        display:inline-block; margin-top:12px; padding:10px 20px;
+        background:#2565cb; color:white; border-radius:6px; text-decoration:none;
+    }
+    a.download:hover {
+        background:#1a49a1;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>제출자 성적 다운로드</h1>
+    <p>아래 버튼을 클릭하여 제출된 성적 데이터를 Excel 파일로 다운로드할 수 있습니다.</p>
+    <a class="download" href="/admin/download">📥 성적 다운로드 (results.xlsx)</a>
+  </div>
+</body>
+</html>
