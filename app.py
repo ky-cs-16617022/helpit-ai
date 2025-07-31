@@ -1,7 +1,15 @@
+import os
+from dotenv import load_dotenv
+import openai
 from flask import Flask, jsonify, request, send_from_directory, send_file
 from flask_cors import CORS
-import json, openai, os
+import json
 
+# .env 파일에서 환경변수 로드
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+# Flask 앱 초기화
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app)
 
@@ -90,7 +98,7 @@ def get_ai_feedback(score, part_scores, results):
 (파트별 코멘트 내에는 '김영편입', 입시·첨삭·모의 등 언급 금지)
 """
 
-    openai.api_key = "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"
+
     try:
         completion = openai.chat.completions.create(
             model="gpt-4o",
